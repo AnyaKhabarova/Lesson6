@@ -27,4 +27,30 @@ namespace Classes_n_Structures_6._2
             cost = penCost;
         }
     }
+
+    class Rectangle
+    {
+        public int a;
+        public int b;
+        public Rectangle()
+        {
+            a = 6;
+            b = 4;
+        }
+        public Rectangle(int side)
+        {
+            a = side;
+            b = side;
+        }
+        public Rectangle(int first, int second)
+        {
+            a = first;
+            b = second;
+        }
+        public int Square()
+        {
+            return a * b;
+        }         
+       
+    }
 }
